@@ -14,7 +14,7 @@ export function Header() {
                         <NavLink className='nav-link' to='/'>Home</NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink className='nav-link' to='/about'>About</NavLink>
+                        <NavLink className='nav-link' to='/about'>Cookies</NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink className='nav-link' to='/services'>Services</NavLink>
