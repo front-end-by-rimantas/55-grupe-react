@@ -1,9 +1,9 @@
-export function TodoStats({ data }) {
+export function TodoStats({ activeCount, completedCount }) {
     return (
         <>
-            <h2>Tasks count: {data.length}</h2>
-            <p>Currect tasks: 0</p>
-            <p>Completed tasks: 0</p>
+            <h2>Tasks count: {activeCount + completedCount}</h2>
+            <p>Active tasks: {activeCount}</p>
+            <p>Completed tasks: {completedCount}</p>
         </>
     )
 }
