@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { ServicesList } from "../components/services/ServicesList";
-import '../components/form/Form.css';
 
 export function Services() {
     const [vegetablesId, setVegetablesId] = useState(1);
